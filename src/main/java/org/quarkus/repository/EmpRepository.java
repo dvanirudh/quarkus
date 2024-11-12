@@ -5,6 +5,5 @@ import jakarta.enterprise.context.ApplicationScoped;
 import org.quarkus.entity.Employee;
 
 @ApplicationScoped
-public class EmpRepository implements PanacheRepository<Employee> {
-}
+public class EmpRepository implements PanacheRepository<Employee> { }
 

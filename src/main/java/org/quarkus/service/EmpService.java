@@ -16,7 +16,6 @@ public class EmpService {
     @Inject
     EmpRepository repository;
 
-
     public List<Employee> getAllEmployees() {
         return repository.listAll();
     }

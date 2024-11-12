@@ -6,7 +6,6 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.quarkus.entity.Employee;
 import org.quarkus.service.EmpService;
-
 import java.util.List;
 
 @Path("/employees")
@@ -22,7 +21,6 @@ public class EmpController {
     public List<Employee> getAllEmployees() {
         return service.getAllEmployees();
     }
-
 
     @GET
     @Path("/{id}")
